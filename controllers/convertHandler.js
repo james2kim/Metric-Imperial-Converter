@@ -21,10 +21,6 @@ function ConvertHandler() {
       return result
     }  
       return +number
-    
-
-
-
 
   };
   
