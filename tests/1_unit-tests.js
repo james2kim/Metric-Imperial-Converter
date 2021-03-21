@@ -4,7 +4,6 @@ const ConvertHandler = require('../controllers/convertHandler.js');
 
 let convertHandler = new ConvertHandler();
 
-suite('Unit Tests', function(){
     suite ('convertHandler', () => {
         test('should correctly read a whole number input', done => {
             let input = '32mi'
@@ -116,4 +115,3 @@ suite('Unit Tests', function(){
             done()
         })
     })
-});
